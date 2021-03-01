@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>T02</title>
-</head>
-<body>
-    <h1>Timer</h1>
+    <title>Upgrade Human</title>
+    <link id="stylesheet" rel="stylesheet" href="./css/humanstyle.css">
     <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <h1>Upgrade Human</h1>
+    <div class="Human">
+        <img src="./assets/images/peter.jpg" alt="Peter Parker">
+        <div class="buttons">
+            <button id="sleep" onclick="return sleepFor()">Sleep</button>
+            <button id="feed" onclick="return feed()">Feed</button>
+            <button id="tsp" onclick="return TurnIntoSuperhero('style2.css',0)">Turn into superhero</button>
+        </div>
+        <div class="properties_container">
+            <span class="prop">Properties: </span>
+            <span id="firstname">First name: </span>
+            <span id="lastname">Last name: </span>
+            <span id="age">Age: </span>
+            <span id="gender">Gender: </span>
+            <span id="calories">Calories: </span>
+            <div class="massage" id="message-here"><span>...</span></div>
+        </div>
+    </div>
+    <div class="superhero">
+        <img src="./assets/images/Spider-Man.jpg" alt="Spider Man" id="image">
+        <div class="buttons">
+            <button id="fly" onclick="return fly()">Fly</button>
+            <button id="feed" onclick="return shooting()">Shooting Web</button>
+            <button id="fightwithevil" onclick="return fightWithEvil()">Fight With Evil</button>
+        </div>
+        <div class="properties_container">
+            <span class="prop">Properties: </span>
+            <span id="alias">Name: </span>
+            <span id="ages">Age: </span>
+            <span id="genders">Gender: </span>
+            <span id="web">Web: </span>
+        </div>
+    </div>
 </body>
+
 </html>

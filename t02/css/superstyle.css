@@ -1,0 +1,66 @@
+.Human {
+    display: none;
+}
+
+.buttons {
+    margin: 20px 20px 0px 20px;
+    height: 50px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.massage {
+    margin-top: 20px;
+    height: 40px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+.buttons>button {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.properties_container {
+    height: 140px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+#alias,
+#ages,
+#genders,
+#web {
+    margin-left: 30px;
+    display: flex;
+}
+
+.superhero>img {
+    width: 500px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+.superhero {
+    margin: 10px;
+    height: 100%;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding: 5px;
+    font: 1em sans-serif;
+    color: whitesmoke;
+    background: linear-gradient(#ff0404, #000766);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
